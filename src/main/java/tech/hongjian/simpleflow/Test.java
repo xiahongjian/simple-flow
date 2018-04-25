@@ -1,14 +1,14 @@
-package tech.hongjian.orderflow;
+package tech.hongjian.simpleflow;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Function;
 
-import tech.hongjian.orderflow.exception.NoNextStepException;
-import tech.hongjian.orderflow.flow.Flow;
-import tech.hongjian.orderflow.step.FlowStep;
-import tech.hongjian.orderflow.step.SimpleFlowStep;
+import tech.hongjian.simpleflow.exception.NoNextStepException;
+import tech.hongjian.simpleflow.flow.Flow;
+import tech.hongjian.simpleflow.step.FlowStep;
+import tech.hongjian.simpleflow.step.SimpleFlowStep;
 
 
 /**
